@@ -3043,6 +3043,7 @@
 
 	qcom_ramoops {
 		compatible = "qcom,ramoops";
+		status = "disabled";
 		memory-region = <&ramoops_mem>;
 		pmsg-size = <0x200000>;
 		console-size = <0x40000>;
